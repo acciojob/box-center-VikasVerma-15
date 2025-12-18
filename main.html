@@ -3,11 +3,35 @@
 <html>
 
 <head>
+	<style>
+        .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+            transform: translate(-50%, -50%);
+        }
+
+        .box p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: purple;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+    </style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	  <div class="box">
+        <p>This is center</p>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
